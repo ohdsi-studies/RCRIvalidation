@@ -1,8 +1,13 @@
 loadPlpModelGitHub <- function(
     organization = 'ohdsi-studies',
     repo = 'RCRIvalidation',
-    folder = 'inst/models/original_rcri'
+    folder = 'inst/models/original_rcri',
+    downloadPath
     ){
+  
+  if(missing(downloadPath)){
+    downloadPath <- tempdir()
+  }
   
   plpModel <- list()
   
@@ -90,6 +95,15 @@ loadPlpModelGitHub <- function(
     #} else {
     #  plpModel$model <- file.path(dirPath, "model")
     #}
+  
+  # code to download a single file from github
+  #download.file(
+  #  url = paste0(
+  #    'https://raw.githubusercontent.com/',
+  #    organization, '/', repo, '/refs/heads/main/',
+  #    folder, '/preprocessing.json'), 
+  #  destfile = file.path(downloadPath, "file.json")
+  #  )
     
     return(plpModel)
   
