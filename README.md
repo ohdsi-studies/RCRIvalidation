@@ -18,6 +18,9 @@ Code to run
 ========
 
 ```r
+require('remotes')
+remotes::install_github('ohdsi-studies/RCRIvalidation')
+library(RCRIvalidation)
 library(Strategus)
 library(dplyr)
 
@@ -58,8 +61,7 @@ minCellCount <- 5
 
 # =========== END OF INPUTS ========== #
 
-analysisSpecifications <- ParallelLogger::convertJsonToSettings(RCurl::getURL('https://raw.githubusercontent.com/ohdsi-studies/RCRIvalidation/refs/heads/main/inst/analysisSpecification.json'))
-
+analysisSpecifications <- RCRIvalidation::loadStudySpec()
 
 executionSettings <- Strategus::createCdmExecutionSettings(
   workDatabaseSchema = workDatabaseSchema,

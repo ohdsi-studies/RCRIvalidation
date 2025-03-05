@@ -1,4 +1,6 @@
 # code to create validation analysis script
+library(Strategus) # need https://github.com/OHDSI/Strategus/tree/v1.0-plpv-mt-modules branch
+
 
 targetId <- 19684 # ATLAS id for target cohort
 outcomeId <- 19683 # ATLAS id for outcome cohort
@@ -44,79 +46,72 @@ cgModuleSettingsCreator$validateCohortSharedResourceSpecifications(cohortSharedR
 cgModuleSpecifications <- cgModuleSettingsCreator$createModuleSpecifications()
 
 
-# ModelTransferModule - this will take a model in the github and download it
-# need a different spec for people who do not have internet access when 
-# running a study
-transferSettingsCreator <- Strategus::ModelTransferModule$new()
-transferModuleSpecifications <- transferSettingsCreator$createModuleSpecifications(
-  githubSettings = list(
-    
-    # create the original model and save to repos inst/models/original_rcri folder
-    list(
-      githubUser = 'ohdsi-studies',
-      githubRepository = 'RCRIvalidation',
-      githubBranch = 'main',
-      githubModelsFolder = 'models',
-      githubModelFolder = 'original_rcri'
-    ),
-    
-    # create the recalibrated model and save to repos inst/models/recalibrated_rcri folder
-    list(
-      githubUser = 'ohdsi-studies',
-      githubRepository = 'RCRIvalidation',
-      githubBranch = 'main',
-      githubModelsFolder = 'models',
-      githubModelFolder = 'recalibrated_rcri'
-    ),
-    
-    
-    # create OMOPed model and save to repos inst/models/omoped_rcri folder
-    list(
-      githubUser = 'ohdsi-studies',
-      githubRepository = 'RCRIvalidation',
-      githubBranch = 'main',
-      githubModelsFolder = 'models',
-      githubModelFolder = 'omoped_rcri'
-    )
-    
+# PatientLevelPredictionValidation -------------------------------
+createPackageModel <- function(modelFolder, package){
+  result <- list(
+    type = 'package',
+    modelFolder = modelFolder,
+    package = package
   )
+  class(result) <- 'plpModel'
+  
+  return(result)
+}
+validationList <- list()
+
+# Code to validate 3 models
+validationList[[length(validationList) + 1]] <- PatientLevelPrediction::createValidationDesign(
+  targetId = targetId,
+  outcomeId = outcomeId,
+  populationSettings = NULL, # use models
+  #restrictPlpDataSettings = restrictPlpDataSettings,
+  plpModelList = list(
+    createPackageModel(
+      modelFolder = 'models/original_rcri',
+      package = 'RCRIvalidation'
+    )), # list of locations of models
+  recalibrate = "weakRecalibration"
+)
+validationList[[length(validationList) + 1]] <- PatientLevelPrediction::createValidationDesign(
+  targetId = targetId,
+  outcomeId = outcomeId,
+  populationSettings = NULL, # use models
+  #restrictPlpDataSettings = restrictPlpDataSettings,
+  plpModelList = list(
+    createPackageModel(
+      modelFolder = 'models/omoped_rcri',
+      package = 'RCRIvalidation'
+    )),
+  recalibrate = "weakRecalibration"
+)
+validationList[[length(validationList) + 1]] <- PatientLevelPrediction::createValidationDesign(
+  targetId = targetId,
+  outcomeId = outcomeId,
+  populationSettings = NULL, # use models
+  #restrictPlpDataSettings = restrictPlpDataSettings,
+  plpModelList = list(
+    createPackageModel(
+      modelFolder = 'models/recalibrated_rcri',
+      package = 'RCRIvalidation'
+    )),
+  recalibrate = "weakRecalibration"
 )
 
-# PatientLevelPredictionValidation -------------------------------
-# This lets you specify settings to run on all the models transferred using 
-# the model transfer module
+allValList <- do.call('c', validationList)
+
 plpValModuleSettingsCreator <- PatientLevelPredictionValidationModule$new()
 plpValModuleSpecifications <- plpValModuleSettingsCreator$createModuleSpecifications(
-  list(
-    # for each model in the model transfer we will apply to the different settings
-    
-    # setting 1: 
-  list(
-    targetId = targetId,
-    oucomeId = outcomeId,
-    restrictPlpDataSettings = PatientLevelPrediction::createRestrictPlpDataSettings(), # vector
-    validationSettings = PatientLevelPrediction::createValidationSettings(
-      recalibrate = "weakRecalibration"
-    )
-  )
-  
-  # could add a different t/o setting 
-  #,
-  #list(targetId = ...)
-
-  )
+  allValList
 )
-
 
 # Create analysis specifications CDM modules ---------------
 analysisSpecifications <- createEmptyAnalysisSpecificiations() |>
   addSharedResources(cohortSharedResourcesSpecifications) |>
   addCohortDiagnosticsModuleSpecifications(cdModuleSpecifications) |>
   addCohortGeneratorModuleSpecifications(cgModuleSpecifications) |>
-  addModelTransferModuleSpecifications(transferModuleSpecifications)
   addPatientLevelPredictionValidationModuleSpecifications(plpValModuleSpecifications)
 
 ParallelLogger::saveSettingsToJson(
   object = analysisSpecifications,
-  fileName = "inst/analysisSpecifications.json"
+  fileName = "inst/study_execution_jsons/validation.json"
 )
