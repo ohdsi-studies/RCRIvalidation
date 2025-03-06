@@ -4,7 +4,7 @@ library(Strategus) # need https://github.com/OHDSI/Strategus/tree/v1.0-plpv-mt-m
 
 targetId <- 19684 # ATLAS id for target cohort
 outcomeId <- 19683 # ATLAS id for outcome cohort
-predictorIds <- c(19695, 19685, 19687, 19690, 19691) # ATLAS ids for predictors
+predictorIds <- c(19685,19695,19687,19690,19686,19691) # ATLAS ids for predictors
 #remotes::install_github('ohdsi/Strategus', ref = 'v1.0-plpv-mt-modules')
 library(Strategus)
 ROhdsiWebApi::authorizeWebApi(
