@@ -17,10 +17,10 @@
       "covariateCohortDatabaseSchema": "",
       "covariateCohortTable": "",
       "covariateCohorts": {
-        "cohortId": [19695, 19685, 19687, 19690, 19691],
-        "cohortName": ["predictor1", "predictor2", "predictor3", "predictor4", "predictor5"],
+        "cohortId": [19685, 19695, 19687, 19690, 19686, 19691],
+        "cohortName": ["Elevated risk surgery", "Renal impairment creatinine", "Ischemic heart disease", "Cerebrovascular disease", "Heart failure", "Insulin"],
         "attr_class": "data.frame",
-        "attr_row.names": [1, 2, 3, 4, 5]
+        "attr_row.names": [1, 2, 3, 4, 5, 6]
       },
       "valueType": "binary",
       "startDay": -365,
