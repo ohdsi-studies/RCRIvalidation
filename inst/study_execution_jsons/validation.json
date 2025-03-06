@@ -25,7 +25,7 @@
         {
           "cohortId": 19686,
           "cohortName": "Revised Cardiac Risk Index - Covariate - Heart failure",
-          "cohortDefinition": "FILL IN"
+          "cohortDefinition": "" #FILLIN
         },
         {
           "cohortId": 19687,
