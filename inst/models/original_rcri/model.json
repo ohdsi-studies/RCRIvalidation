@@ -1,7 +1,7 @@
 {
   "intercept": 12,
   "coefficients": {
-    "covariateId": [1002, 19695668, 19685668, 19687668, 19690668, 19691668],
+    "covariateId": [1002, 19685668, 19695668, 19687668, 19690668, 19686668, 19691668],
     "coefficient": [1, 1, 1, 1, 1, 1],
     "attr_class": "data.frame",
     "attr_row.names": [1, 2, 3, 4, 5, 6]
