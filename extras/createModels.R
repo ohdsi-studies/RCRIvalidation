@@ -4,15 +4,78 @@
 canalysisId <- 668
 plpModel <- PatientLevelPrediction::createGlmModel(
   coefficients = data.frame(
-    covariateId = c(1002, predictorIds*1000+canalysisId),
-    coefficient = rep(1, 1+length(predictorIds))
+    covariateId = predictorIds*1000+canalysisId,
+    coefficient = c(1,1,1,1,1,1)
   ), 
-  intercept = 12, 
-  mapping = "logistic"#,
-  # need to add
-  ##targetId, 
-  ##outcomeId,
-  ##covariateSettings
+  intercept = 0, 
+  mapping = "logistic",
+  covariateSettings = list(createCohortCovariateSettings(
+      cohortName = 'Covariate RCRI Cerebrovascular disease',
+      settingId = 1,
+      cohortDatabaseSchema = cohortDatabaseSchema,
+      cohortTable = cohortTableName,
+      cohortId = 19690, 
+      startDay = -9999,
+      endDay = 0,
+      count = F, 
+      ageInteraction = F, 
+      analysisId = 668
+    ), createCohortCovariateSettings(
+      cohortName = 'Covariate RCRI Heart Failure',
+      settingId = 1,
+      cohortDatabaseSchema = cohortDatabaseSchema,
+      cohortTable = cohortTableName,
+      cohortId = 19686,  
+      startDay = -9999,
+      endDay = 0,
+      count = F, 
+      ageInteraction = F, 
+      analysisId = 668
+    ), createCohortCovariateSettings(
+      cohortName = 'Covariate RCRI Insulin treatment',
+      settingId = 1,
+      cohortDatabaseSchema = cohortDatabaseSchema,
+      cohortTable = cohortTableName,
+      cohortId = 19691,  
+      startDay = -30,
+      endDay = 0,
+      count = F, 
+      ageInteraction = F, 
+      analysisId = 668
+    ), createCohortCovariateSettings(
+      cohortName = 'Covariate RCRI Ischemic heart disease',
+      settingId = 1,
+      cohortDatabaseSchema = cohortDatabaseSchema,
+      cohortTable = cohortTableName,
+      cohortId = 19687, 
+      startDay = -9999,
+      endDay = 0,
+      count = F, 
+      ageInteraction = F, 
+      analysisId = 668
+    ), createCohortCovariateSettings(
+      cohortName = 'Covariate RCRI Elevated risk surgery',
+      settingId = 1,
+      cohortDatabaseSchema = cohortDatabaseSchema,
+      cohortTable = cohortTableName,
+      cohortId = 19685, 
+      startDay = -30,
+      endDay = 0,
+      count = F, 
+      ageInteraction = F, 
+      analysisId = 668
+    ), createCohortCovariateSettings(
+      cohortName = 'Covariate RCRI Creatinine including renal impairment',
+      settingId = 1,
+      cohortDatabaseSchema = cohortDatabaseSchema,
+      cohortTable = cohortTableName,
+      cohortId = 19695, 
+      startDay = -9999,
+      endDay = 0,
+      count = F, 
+      ageInteraction = F, 
+      analysisId = 668
+    )
     )
 
 plpModel$modelDesign$targetId <- targetId
@@ -24,7 +87,7 @@ plpModel$modelDesign$covariateSettings <- list(
   covariateCohortTable = '', 
   covariateCohorts = data.frame(
     cohortId = predictorIds,
-    cohortName = c('predictor1','predictor2','predictor3','predictor4','predictor5')
+    cohortName = c('predictor1','predictor2','predictor3','predictor4','predictor5', 'predictor6')
     ), 
   valueType = 'binary', 
   startDay = -365, 
