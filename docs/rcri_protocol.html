@@ -3064,9 +3064,9 @@ vertical-align: -.125em;
   <li><a href="#target-cohort" id="toc-target-cohort" class="nav-link" data-scroll-target="#target-cohort">Target Cohort</a></li>
   <li><a href="#outcome-cohort" id="toc-outcome-cohort" class="nav-link" data-scroll-target="#outcome-cohort">Outcome Cohort</a></li>
   <li><a href="#predictor-cohorts" id="toc-predictor-cohorts" class="nav-link" data-scroll-target="#predictor-cohorts">Predictor Cohorts</a></li>
+  </ul></li>
   <li><a href="#plans-for-addressing-missing-data" id="toc-plans-for-addressing-missing-data" class="nav-link" data-scroll-target="#plans-for-addressing-missing-data">Plans for addressing missing data</a></li>
   <li><a href="#plans-for-disseminating-and-communicating-study-results" id="toc-plans-for-disseminating-and-communicating-study-results" class="nav-link" data-scroll-target="#plans-for-disseminating-and-communicating-study-results">Plans for disseminating and communicating study results</a></li>
-  </ul></li>
   </ul>
 </nav>
 </div>
@@ -3109,22 +3109,22 @@ vertical-align: -.125em;
 <section id="lay-summary" class="level2">
 <h2 class="anchored" data-anchor-id="lay-summary">Lay Summary</h2>
 <p>The Revised Cardiac Risk Index for Pre-Operative Risk (RCRI) model informs a patient of their risk of having cardiac complications before they have an optional non-cardiac surgery. The model has been incorporated into guidelines (https://pubmed.ncbi.nlm.nih.gov/27865641/) to help identify which patients would benefit from further risk assessment.</p>
-<p>The original RCRI model was developed decades ago and an revised version was proposed more recently. It it known that model accuracy can decrease over time due to changes in medical care and patient comorbidities. Therefore, it is of interest to see how the original and revised models perform over time.</p>
-<p>In this study we will apply the two versions of the model across a network of observational databases. We will evaluate the performances when applied to all patients with non-cardiac surgery dates across all time and also per year (when possible). This will enable us to see how much a model performance is impacted by time.</p>
+<p>The original RCRI model was developed decades ago and a revised version was proposed more recently. It it known that model accuracy can decrease over time due to changes in medical care and patient comorbidities. Therefore, it is of interest to see how the original and revised models perform over time.</p>
+<p>In this study we will apply the two versions of the model across a network of observational heathcare databases (insurance claims data and electronic healthcare databases). We will evaluate the performances when applied to all patients with non-cardiac surgery dates across all time and also per year (when possible). This will enable us to see how much a model performance is impacted by time.</p>
 </section>
 <section id="technical-summary" class="level2">
 <h2 class="anchored" data-anchor-id="technical-summary">Technical Summary</h2>
 <p>The RCRI model was developed to predict cardiac complications in patients ≥45 years old (or 18-44 years old with significant cardiovascular disease) undergoing elective non-cardiac surgery or urgent/semi-urgent (non-emergent) non-cardiac surgery. The prediction index is the date of the surgery.</p>
-<p>The RCRI is a simple model with six predictors (high risk surgery, history of ischemic heart disease, history of congestive heart failure, history of cerebrovascular disease, pre-operative treatment with insulin and pre-operative creatinine &gt; 2mg/dL). The model simply assigned a patient 1 point per predictor that the patient has and these points are summed to the patient’s total score (e.g., a patient with a history of congestive heart failure only, creatinine &lt; 2 mg/dL and no insulin pre-operatively would have a score of +1 ).</p>
-<p>The original model then assigned risk percentages to the total score, however, this mapping was recalibrated for the revised model, so the scores mean different risks. It is unclear whether the revised model’s recalibration actually improved the model performance. Therefore, we will apply both versions of the model and calculate the discrimiantion via AUROC and AUPRC in addition to calibration via calibration-in-the-large and Estatistic. We will also plot decision curves.</p>
-<p>As the RCRI model was developed many years ago. We will also evaluate the model stratfying by prediction index, so we can see whether the model performance changes over time. We will evaluate the model overall and by prediction index year.</p>
+<p>The RCRI is a simple model with six predictors (high risk surgery, history of ischemic heart disease, history of congestive heart failure, history of cerebrovascular disease, pre-operative treatment with insulin and pre-operative creatinine &gt; 2mg/dL). The model simply assigns a patient 1 point per predictor that the patient has and these points are summed to the patient’s total score (e.g., a patient with a history of congestive heart failure only, creatinine &lt; 2 mg/dL and no insulin pre-operatively would have a score of +1 ).</p>
+<p>The original model then assigned risk percentages to the total score, however, this mapping was recalibrated for the revised model, so the scores mean different risks. It is unclear whether the revised model’s recalibration actually improved the model performance. Therefore, we will apply both versions of the model and calculate the discrimination via AUROC and AUPRC in addition to calibration via calibration-in-the-large and E-statistic. We will also plot decision curves.</p>
+<p>As the RCRI model was developed many years ago. We will also evaluate the model stratifying by prediction index, so we can see whether the model performance changes over time. We will evaluate the model overall and by prediction index year.</p>
 </section>
 <section id="specific-aims-objectives-and-rationale" class="level2">
 <h2 class="anchored" data-anchor-id="specific-aims-objectives-and-rationale">Specific Aims, Objectives and Rationale</h2>
 <p>Specific aims:</p>
 <ul>
-<li>To implement the RCRI original and recalibrated models across a network of observational healthcare databases and evaluate the model’s discrimiantion and calibration.</li>
-<li>To compare the calibration and decision curves for the orginal vs recalibrated models.</li>
+<li>To implement the RCRI original and recalibrated models across a network of observational healthcare databases and evaluate the model’s discrimination and calibration.</li>
+<li>To compare the calibration and decision curves for the original vs recalibrated models.</li>
 <li>To compare the discrimination of the RCRI model over time (every year from 2010-2024).</li>
 <li>The compare the calibration over time (every year from 2010-2024) between the original and recalibrated models.</li>
 </ul>
@@ -4357,16 +4357,16 @@ WHERE interval_status = 0</code></pre>
 </div>
 </div>
 </section>
-<section id="plans-for-addressing-missing-data" class="level3">
-<h3 class="anchored" data-anchor-id="plans-for-addressing-missing-data">Plans for addressing missing data</h3>
-<p>Most of the predictors of RCRI correspond to the patient having a history of certain medical events, whether they are a high risk surgery and are taking insulin. The way these predictors are constructed is to find all the patients with the medical events, high risk surgery and taking insulin then we see whether a patient is in each predictor cohort. Therefore, by design the predictor value is always 1 (patient is also in the predictor cohort so has the medical event) or 0 (not in the predictor cohort). It is not possible to have missing values for these predictors, although patients may be misclassified in the predictor cohorts and have an incorrect value.</p>
-<p>The current renal impairment predictor is determined via creatinine values being measured close to surgery index. Creatinine values are often missing in observational data and, even when observed, are unlikely to be observed close to surgery index. To address this changed the predictor to be creatinine measurement &gt;= 2 OR renal impairment condition record. In the majority of the OMOP databases, the renal impairment condition is more likely to be recorded and therefore use to identify patients with this predictor. However, if a patient has creatinine recorded close to index and the value is &gt;=2, then the patient will have a value of 1 for ‘current renal impairment’ even if he/she does not have a medical condition record of renal impairment.</p>
 </section>
-<section id="plans-for-disseminating-and-communicating-study-results" class="level3">
-<h3 class="anchored" data-anchor-id="plans-for-disseminating-and-communicating-study-results">Plans for disseminating and communicating study results</h3>
+<section id="plans-for-addressing-missing-data" class="level2">
+<h2 class="anchored" data-anchor-id="plans-for-addressing-missing-data">Plans for addressing missing data</h2>
+<p>Most of the predictors of RCRI correspond to the patient having a history of certain medical events, whether they are a high risk surgery and are taking insulin. The way these predictors are constructed is to find all the patients with the medical events, high risk surgery and taking insulin then we see whether a patient is in each predictor cohort. Therefore, by design the predictor value is either 1 (patient is also in the predictor cohort so has the medical event) or 0 (not in the predictor cohort). It is not possible to have missing values for these predictors, although patients may be misclassified in the predictor cohorts and have an incorrect value.</p>
+<p>The current renal impairment predictor is determined via creatinine values being measured close to surgery index. Creatinine values are often missing in observational data and, even when observed, are unlikely to be observed close to surgery index. To address this we changed the predictor to be creatinine measurement &gt;= 2 OR renal impairment condition record. In the majority of the OMOP databases, the renal impairment condition is more likely to be recorded and therefore used to identify patients with this predictor. However, if a patient has creatinine recorded close to index and the value is &gt;=2, then the patient will have a value of 1 for ‘current renal impairment’ even if he/she does not have a medical condition record of renal impairment.</p>
+</section>
+<section id="plans-for-disseminating-and-communicating-study-results" class="level2">
+<h2 class="anchored" data-anchor-id="plans-for-disseminating-and-communicating-study-results">Plans for disseminating and communicating study results</h2>
 <p>The final results will be disseminated as a journal article.</p>
 <p>All statistical analysis code will be made publicly available. This includes the study package for the network study and a cohort diagnostic package.</p>
-</section>
 </section>
 
 </main>
