@@ -1,12 +1,54 @@
-#mapping for the original RCRI
-RCRIoriginal <-
+#================================================================================================
+#MAPPING FOR THE DIFFERENT MODELS
+#================================================================================================
 
-#mapping for the recalibrated RCRI
-RCRIrecalibrated <-
+#MAPPING FOR THE ORIGINAL RCRI
+RCRIoriginal <- updatedRCRImap <- function(x){
+  singleMap <- function(x){
+    if(x == 0){
+      return(0.004)
+    } else if(x == 1){
+      return(0.009)
+    } else if(x == 2){
+      return(0.07)
+    } else if(x == 3){
+      return(0.11)
+    } else if(x > 3){
+      return(0.11)
+    }
+  }
+  
+  result <- sapply(X = x, FUN = singleMap)
+  return(result)
+}
 
-# create the models
+
+#MAPPING FOR THE RECALIBRATED RCRI
+RCRIrecalibrated <- updatedRCRImap <- function(x){
+  singleMap <- function(x){
+    if(x == 0){
+      return(0.004)
+    } else if(x == 1){
+      return(0.009)
+    } else if(x == 2){
+      return(0.07)
+    } else if(x == 3){
+      return(0.11)
+    } else if(x > 3){
+      return(0.11)
+    }
+  }
+  
+  result <- sapply(X = x, FUN = singleMap)
+  return(result)
+}
+  
+#=======================================================================================
+#CREATE THE MODELS
+#=======================================================================================
 
 #ORIGINAL_RCRI
+#=======================================================================================
 # need to add covariateSettings and stuff to this?
 canalysisId <- 668
 plpModel <- PatientLevelPrediction::createGlmModel(
@@ -115,6 +157,7 @@ PatientLevelPrediction::savePlpModel(
     )
 
 #OMOPED_RCRI
+#=============================================================================================
 canalysisId <- 668
 plpModel <- PatientLevelPrediction::createGlmModel(
   coefficients = data.frame(
@@ -222,6 +265,7 @@ PatientLevelPrediction::savePlpModel(
     )
 
 #RECALIBRATED_RCRI
+#============================================================================
   canalysisId <- 668
 plpModel <- PatientLevelPrediction::createGlmModel(
   coefficients = data.frame(
