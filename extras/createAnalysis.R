@@ -93,7 +93,7 @@ validationList[[length(validationList) + 1]] <- PatientLevelPrediction::createVa
   targetId = targetId,
   outcomeId = outcomeId,
   populationSettings = NULL, # use models
-  #restrictPlpDataSettings = restrictPlpDataSettings,
+  restrictPlpDataSettings = restrictPlpDataSettings,
   plpModelList = list(
     createPackageModel(
       modelFolder = 'models/original_rcri',
@@ -105,7 +105,7 @@ validationList[[length(validationList) + 1]] <- PatientLevelPrediction::createVa
   targetId = targetId,
   outcomeId = outcomeId,
   populationSettings = NULL, # use models
-  #restrictPlpDataSettings = restrictPlpDataSettings,
+  restrictPlpDataSettings = restrictPlpDataSettings,
   plpModelList = list(
     createPackageModel(
       modelFolder = 'models/omoped_rcri',
@@ -117,7 +117,7 @@ validationList[[length(validationList) + 1]] <- PatientLevelPrediction::createVa
   targetId = targetId,
   outcomeId = outcomeId,
   populationSettings = NULL, # use models
-  #restrictPlpDataSettings = restrictPlpDataSettings,
+  restrictPlpDataSettings = restrictPlpDataSettings,
   plpModelList = list(
     createPackageModel(
       modelFolder = 'models/recalibrated_rcri',
