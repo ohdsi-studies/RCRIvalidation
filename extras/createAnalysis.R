@@ -45,6 +45,35 @@ cgModuleSettingsCreator$validateCohortSharedResourceSpecifications(cohortSharedR
 
 cgModuleSpecifications <- cgModuleSettingsCreator$createModuleSpecifications()
 
+# Restrict Data Settings to every 6 months --------------------------------
+generateRestrictDataSettings <- function(start, end, interval = months(6)) {
+  startDate <- lubridate::ymd(start)
+  endDate <- lubridate::ymd(end)
+  
+  settingsList <- list()
+  currentStart <- startDate
+  
+  while (currentStart < endDate) {
+    currentEnd <- currentStart + interval - days(1)
+    
+    if (currentEnd > endDate) {
+      currentEnd <- endDate
+    }
+    
+    settings <- createRestrictPlpDataSettings(
+      studyStartDate = format(currentStart, "%Y%m%d"),
+      studyEndDate = format(currentEnd, "%Y%m%d")
+    )
+    
+    settingsList <- append(settingsList, list(settings))
+    currentStart <- currentStart + interval
+  }
+  
+  return(settingsList)
+  
+}
+
+restrictPlpDataSettings <- generateRestrictDataSettings("2010-01-01", "2024-06-01")
 
 # PatientLevelPredictionValidation -------------------------------
 createPackageModel <- function(modelFolder, package){
