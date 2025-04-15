@@ -51,7 +51,7 @@ RCRIrecalibrated <- updatedRCRImap <- function(x){
 #=======================================================================================
 # need to add covariateSettings and stuff to this?
 canalysisId <- 668
-plpModel <- PatientLevelPrediction::createGlmModel(
+plpModelOriginal <- PatientLevelPrediction::createGlmModel(
   coefficients = data.frame(
     covariateId = predictorIds*1000+canalysisId,
     coefficient = c(1,1,1,1,1,1)
@@ -127,9 +127,9 @@ plpModel <- PatientLevelPrediction::createGlmModel(
     )
     )
 
-plpModel$modelDesign$targetId <- targetId
-plpModel$modelDesign$outcomeId <- outcomeId
-plpModel$modelDesign$covariateSettings <- list(
+plpModelOriginal$modelDesign$targetId <- targetId
+plpModelOriginal$modelDesign$outcomeId <- outcomeId
+plpModelOriginal$modelDesign$covariateSettings <- list(
   FeatureExtraction::createCohortBasedCovariateSettings(
   analysisId = canalysisId,
   covariateCohortDatabaseSchema = '', 
@@ -148,18 +148,18 @@ plpModel$modelDesign$covariateSettings <- list(
 )
 
 # bug that needs fixing in PLP
-attr(plpModel,"saveType") <- 'RtoJson'
+attr(plpModelOriginal,"saveType") <- 'RtoJson'
 
 # RtoJson
 PatientLevelPrediction::savePlpModel(
-  plpModel = plpModel, 
+  plpModel = plpModelOriginal, 
   dirPath = './inst/models/original_rcri'
     )
 
 #OMOPED_RCRI
 #=============================================================================================
 canalysisId <- 668
-plpModel <- PatientLevelPrediction::createGlmModel(
+plpModelOMOP <- PatientLevelPrediction::createGlmModel(
   coefficients = data.frame(
     covariateId = predictorIds*1000+canalysisId,
     coefficient = c(1,1,1,1,1,1)
@@ -235,9 +235,9 @@ plpModel <- PatientLevelPrediction::createGlmModel(
     )
     )
 
-plpModel$modelDesign$targetId <- targetId
-plpModel$modelDesign$outcomeId <- outcomeId
-plpModel$modelDesign$covariateSettings <- list(
+plpModelOMOP$modelDesign$targetId <- targetId
+plpModelOMOP$modelDesign$outcomeId <- outcomeId
+plpModelOMOP$modelDesign$covariateSettings <- list(
   FeatureExtraction::createCohortBasedCovariateSettings(
   analysisId = canalysisId,
   covariateCohortDatabaseSchema = '', 
@@ -256,18 +256,18 @@ plpModel$modelDesign$covariateSettings <- list(
 )
 
 # bug that needs fixing in PLP
-attr(plpModel,"saveType") <- 'RtoJson'
+attr(plpModelOMOP,"saveType") <- 'RtoJson'
 
 # RtoJson
 PatientLevelPrediction::savePlpModel(
-  plpModel = plpModel, 
+  plpModel = plpModelOMOP, 
   dirPath = './inst/models/omoped_rcri'
     )
 
 #RECALIBRATED_RCRI
 #============================================================================
   canalysisId <- 668
-plpModel <- PatientLevelPrediction::createGlmModel(
+plpModelRecal <- PatientLevelPrediction::createGlmModel(
   coefficients = data.frame(
     covariateId = predictorIds*1000+canalysisId,
     coefficient = c(1,1,1,1,1,1)
@@ -343,9 +343,9 @@ plpModel <- PatientLevelPrediction::createGlmModel(
     )
     )
 
-plpModel$modelDesign$targetId <- targetId
-plpModel$modelDesign$outcomeId <- outcomeId
-plpModel$modelDesign$covariateSettings <- list(
+plpModelRecal$modelDesign$targetId <- targetId
+plpModelRecal$modelDesign$outcomeId <- outcomeId
+plpModelRecal$modelDesign$covariateSettings <- list(
   FeatureExtraction::createCohortBasedCovariateSettings(
   analysisId = canalysisId,
   covariateCohortDatabaseSchema = '', 
@@ -364,11 +364,11 @@ plpModel$modelDesign$covariateSettings <- list(
 )
 
 # bug that needs fixing in PLP
-attr(plpModel,"saveType") <- 'RtoJson'
+attr(plpModelRecal,"saveType") <- 'RtoJson'
 
 # RtoJson
 PatientLevelPrediction::savePlpModel(
-  plpModel = plpModel, 
+  plpModel = plpModelRecal, 
   dirPath = './inst/models/recalibrated_rcri'
     )
 
