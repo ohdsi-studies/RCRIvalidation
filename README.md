@@ -20,7 +20,7 @@ Code to run
 ```r
 require('remotes')
 remotes::install_github('ohdsi-studies/RCRIvalidation')
-remotes::install_github('OHDSI/PatientLevelPrediction@')
+remotes::install_github('OHDSI/PatientLevelPrediction@develop')
 library(RCRIvalidation)
 library(Strategus)
 library(dplyr)
