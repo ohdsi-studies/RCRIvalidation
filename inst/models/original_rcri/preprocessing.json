@@ -1,4 +1,5 @@
 {
+  "featureEngineering": null,
   "tidyCovariates": null,
   "requireDenseMatrix": false
 }

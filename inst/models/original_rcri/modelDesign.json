@@ -14,8 +14,8 @@
       "temporal": false,
       "temporalSequence": false,
       "analysisId": 668,
-      "covariateCohortDatabaseSchema": "",
-      "covariateCohortTable": "",
+      "covariateCohortDatabaseSchema": "RCRIcovariatedatabaseoriginal",
+      "covariateCohortTable": "RCRIcovariatecohortoriginal",
       "covariateCohorts": {
         "cohortId": [19685, 19695, 19687, 19690, 19686, 19691],
         "cohortName": ["Elevated risk surgery", "Renal impairment creatinine", "Ischemic heart disease", "Cerebrovascular disease", "Heart failure", "Insulin"],
@@ -77,9 +77,9 @@
     }
   ],
   "preprocessSettings": {
-    "minFraction": 0.001,
-    "normalize": true,
-    "removeRedundancy": true,
+    "minFraction": 0,
+    "normalize": false,
+    "removeRedundancy": false,
     "attr_class": "preprocessSettings"
   },
   "modelSettings": {
@@ -89,7 +89,7 @@
   "splitSettings": {
     "test": 0.25,
     "train": 0.75,
-    "seed": 70061,
+    "seed": 123,
     "nfold": 3,
     "attr_class": "splitSettings",
     "attr_fun": "randomSplitter"
@@ -98,7 +98,7 @@
     "runSplitData": true,
     "runSampleData": false,
     "runFeatureEngineering": false,
-    "runPreprocessData": false,
+    "runPreprocessData": true,
     "runModelDevelopment": true,
     "runCovariateSummary": true,
     "attr_class": "executeSettings"
