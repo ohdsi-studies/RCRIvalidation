@@ -4,3 +4,4 @@
   "predictionFunction": "PatientLevelPrediction::predictGlm",
   "class": "plpModel"
 }
+
