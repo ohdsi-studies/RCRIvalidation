@@ -120,7 +120,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -144,7 +144,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -168,7 +168,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -192,7 +192,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -216,7 +216,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -240,7 +240,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -264,7 +264,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -288,7 +288,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -312,7 +312,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -336,7 +336,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -360,7 +360,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -384,7 +384,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -408,7 +408,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -432,7 +432,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -456,7 +456,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -480,7 +480,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -504,7 +504,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -528,7 +528,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -552,7 +552,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -576,7 +576,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -600,7 +600,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -624,7 +624,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -648,7 +648,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -672,7 +672,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -696,7 +696,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -720,7 +720,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -744,7 +744,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -768,7 +768,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -792,7 +792,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/original_rcri",
+                "modelFolder": "models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -816,7 +816,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -840,7 +840,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -864,7 +864,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -888,7 +888,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -912,7 +912,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -936,7 +936,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -960,7 +960,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -984,7 +984,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1008,7 +1008,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1032,7 +1032,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1056,7 +1056,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1080,7 +1080,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1104,7 +1104,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1128,7 +1128,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1152,7 +1152,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1176,7 +1176,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1200,7 +1200,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1224,7 +1224,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1248,7 +1248,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1272,7 +1272,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1296,7 +1296,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1320,7 +1320,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1344,7 +1344,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1368,7 +1368,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1392,7 +1392,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1416,7 +1416,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1440,7 +1440,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1464,7 +1464,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1488,7 +1488,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/omoped_rcri",
+                "modelFolder": "models/omoped_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1512,7 +1512,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1536,7 +1536,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1560,7 +1560,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1584,7 +1584,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1608,7 +1608,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1632,7 +1632,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1656,7 +1656,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1680,7 +1680,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1704,7 +1704,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1728,7 +1728,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1752,7 +1752,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1776,7 +1776,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1800,7 +1800,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1824,7 +1824,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1848,7 +1848,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1872,7 +1872,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1896,7 +1896,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1920,7 +1920,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1944,7 +1944,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1968,7 +1968,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -1992,7 +1992,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -2016,7 +2016,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -2040,7 +2040,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -2064,7 +2064,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -2088,7 +2088,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -2112,7 +2112,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -2136,7 +2136,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -2160,7 +2160,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
@@ -2184,7 +2184,7 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "./inst/models/recalibrated_rcri",
+                "modelFolder": "models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
