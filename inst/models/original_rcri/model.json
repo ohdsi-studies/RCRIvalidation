@@ -6,6 +6,6 @@
     "attr_class": "data.frame",
     "attr_row.names": [1, 2, 3, 4, 5, 6]
   },
-  "mapping": "RCRIoriginal",
+  "mapping": "function(y){ sapply(y, function(x){\n    if(x == 0){\n      return(0.004)\n    } else if(x == 1){\n      return(0.009)\n    } else if(x == 2){\n      return(0.07)\n    } else if(x == 3){\n      return(0.11)\n    } else if(x > 3){\n      return(0.11)\n    }\n})}",
   "predictionFunction": "PatientLevelPrediction::predictGlm"
 }

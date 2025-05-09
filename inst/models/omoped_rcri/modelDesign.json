@@ -14,6 +14,8 @@
       "temporal": false,
       "temporalSequence": false,
       "analysisId": 668,
+      "covariateCohortDatabaseSchema": "",
+      "covariateCohortTable": "",
       "covariateCohorts": {
         "cohortId": [19685, 19695, 19687, 19690, 19686, 19691],
         "cohortName": ["Elevated risk surgery", "Renal impairment creatinine", "Ischemic heart disease", "Cerebrovascular disease", "Heart failure", "Insulin"],
@@ -51,7 +53,7 @@
     "washoutPeriod": 0,
     "removeSubjectsWithPriorOutcome": true,
     "priorOutcomeLookback": 99999,
-    "requireTimeAtRisk": true,
+    "requireTimeAtRisk": false,
     "minTimeAtRisk": 364,
     "riskWindowStart": 1,
     "startAnchor": "cohort start",

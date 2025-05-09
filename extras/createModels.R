@@ -1,10 +1,26 @@
+library(FeatureExtraction)
+library(PatientLevelPrediction)
+cohortDatabaseSchema <- 'cohortDatabaseSchema'
+cohortTableName <- 'cohortTableName'
+targetId <- 19684 # ATLAS id for target cohort
+outcomeId <- 19683 # ATLAS id for outcome cohort
+predictorIds <- c(19685,19695,19687,19690,19686,19691) # ATLAS ids for predictors
+
+# specify the time-at-risk and remove requring full 365 days
+populationSettings <- PatientLevelPrediction::createStudyPopulationSettings(
+  requireTimeAtRisk = FALSE, 
+  riskWindowStart = 1, 
+  startAnchor = 'cohort start',
+  riskWindowEnd = 365, 
+  endAnchor = 'cohort start'
+  )
+
 #================================================================================================
 #MAPPING FOR THE DIFFERENT MODELS
 #================================================================================================
 
 #MAPPING FOR THE ORIGINAL RCRI
-RCRIoriginal <- updatedRCRImap <- function(x){
-  singleMap <- function(x){
+RCRIoriginal <- updatedRCRImap <- "function(y){ sapply(y, function(x){
     if(x == 0){
       return(0.004)
     } else if(x == 1){
@@ -16,15 +32,11 @@ RCRIoriginal <- updatedRCRImap <- function(x){
     } else if(x > 3){
       return(0.11)
     }
-  }
-  
-  result <- sapply(X = x, FUN = singleMap)
-  return(result)
-}
+})}"
 
 
 #MAPPING FOR THE RECALIBRATED RCRI
-RCRIrecalibrated <- updatedRCRImap <- function(x){
+RCRIrecalibrated <- updatedRCRImap <- "function(x){
   singleMap <- function(x){
     if(x == 0){
       return(0.004)
@@ -41,7 +53,7 @@ RCRIrecalibrated <- updatedRCRImap <- function(x){
   
   result <- sapply(X = x, FUN = singleMap)
   return(result)
-}
+}"
   
 #=======================================================================================
 #CREATE THE MODELS
@@ -57,7 +69,8 @@ plpModelOriginal <- PatientLevelPrediction::createGlmModel(
     coefficient = c(1,1,1,1,1,1)
   ), 
   intercept = 0, 
-  mapping = "RCRIoriginal",
+  mapping = RCRIoriginal,
+  populationSettings = populationSettings,
   covariateSettings = list(createCohortCovariateSettings(
       cohortName = 'Covariate RCRI Cerebrovascular disease',
       settingId = 1,
@@ -126,6 +139,7 @@ plpModelOriginal <- PatientLevelPrediction::createGlmModel(
       analysisId = 668
     )
     )
+)
 
 plpModelOriginal$modelDesign$targetId <- targetId
 plpModelOriginal$modelDesign$outcomeId <- outcomeId
@@ -166,6 +180,7 @@ plpModelOMOP <- PatientLevelPrediction::createGlmModel(
   ), 
   intercept = 0, 
   mapping = "logistic",
+  populationSettings = populationSettings,
   covariateSettings = list(createCohortCovariateSettings(
       cohortName = 'Covariate RCRI Cerebrovascular disease',
       settingId = 1,
@@ -234,6 +249,7 @@ plpModelOMOP <- PatientLevelPrediction::createGlmModel(
       analysisId = 668
     )
     )
+)
 
 plpModelOMOP$modelDesign$targetId <- targetId
 plpModelOMOP$modelDesign$outcomeId <- outcomeId
@@ -273,7 +289,8 @@ plpModelRecal <- PatientLevelPrediction::createGlmModel(
     coefficient = c(1,1,1,1,1,1)
   ), 
   intercept = 0, 
-  mapping = "RCRIrecalibrated",
+  mapping = RCRIrecalibrated,
+  populationSettings = populationSettings,
   covariateSettings = list(createCohortCovariateSettings(
       cohortName = 'Covariate RCRI Cerebrovascular disease',
       settingId = 1,
@@ -342,6 +359,7 @@ plpModelRecal <- PatientLevelPrediction::createGlmModel(
       analysisId = 668
     )
     )
+)
 
 plpModelRecal$modelDesign$targetId <- targetId
 plpModelRecal$modelDesign$outcomeId <- outcomeId
