@@ -21,7 +21,7 @@ Code to run
 require('remotes')
 remotes::install_github('ohdsi-studies/RCRIvalidation')
 remotes::install_github('OHDSI/PatientLevelPrediction@develop')
-Remotes::install_github(‘ohdsi/Strategus’, ref = “issue_227”)
+remotes::install_github(‘OHDSI/Strategus’, ref = “issue_227”)
 library(RCRIvalidation)
 library(Strategus)
 library(dplyr)
