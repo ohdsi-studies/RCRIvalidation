@@ -14,8 +14,6 @@
       "temporal": false,
       "temporalSequence": false,
       "analysisId": 668,
-      "covariateCohortDatabaseSchema": "RCRIcovariatedatabaseomop",
-      "covariateCohortTable": "RCRIcovariatecohortomop",
       "covariateCohorts": {
         "cohortId": [19685, 19695, 19687, 19690, 19686, 19691],
         "cohortName": ["Elevated risk surgery", "Renal impairment creatinine", "Ischemic heart disease", "Cerebrovascular disease", "Heart failure", "Insulin"],
