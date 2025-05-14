@@ -18,13 +18,27 @@ Code to run
 ========
 
 ```r
-require('remotes')
-remotes::install_github('ohdsi-studies/RCRIvalidation')
-remotes::install_github('OHDSI/PatientLevelPrediction@develop')
-remotes::install_github(‘OHDSI/Strategus’, ref = “issue_227”)
+
+library(renv)
 library(RCRIvalidation)
 library(Strategus)
 library(dplyr)
+
+# Set working directory to Renv
+#==========================================#
+#Download the Renv lock file from the GitHub page
+#Set working directory to the Renv file
+setwd()
+#Check whether the working directory was adjusted
+.libPaths()
+
+#Activate Renv
+renv::activate()
+#Restart R session
+renv::restore()
+
+
+#==========================================#
 
 # Inputs to run (edit these for your CDM):
 # ========================================= #
@@ -79,4 +93,9 @@ Strategus::execute(
   executionSettings = executionSettings,
   connectionDetails = connectionDetails
 )
+
+#======================================#
+#Don't forget to deactivate your Renv
+renv::deactivate()
+
 ```
