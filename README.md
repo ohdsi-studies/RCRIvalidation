@@ -24,7 +24,7 @@ library(RCRIvalidation)
 library(Strategus)
 library(dplyr)
 
-# Set working directory to Renv
+# Set working directory to Renv file
 #==========================================#
 #Download the Renv lock file from the GitHub page
 #Set working directory to the Renv file
@@ -34,9 +34,8 @@ setwd()
 
 #Activate Renv
 renv::activate()
-#Restart R session
+#Restart R session and consecutively restore
 renv::restore()
-
 
 #==========================================#
 
