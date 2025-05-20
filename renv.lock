@@ -648,20 +648,9 @@
     },
     "duckdb": {
       "Package": "duckdb",
-      "Version": "1.2.2.9001",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "duckdb-r",
-      "RemoteUsername": "duckdb",
-      "RemoteSha": "f3445761a8b0b857f4ad17245721f2a460e5872b",
-      "Requirements": [
-        "DBI",
-        "R",
-        "methods",
-        "utils"
-      ],
-      "Hash": "3faeb4c3eb8f82a7c52f1238a9f294bb"
+      "Version": "1.2.2",
+      "Source": "Repository",
+      "Repository": "CRAN"
     },
     "fansi": {
       "Package": "fansi",
