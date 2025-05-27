@@ -48,7 +48,7 @@ if (!Sys.getenv("DATABASE_TEMP_SCHEMA") == "") {
 }
 
 # where to save the output - a directory in your environment
-outputFolder <- "/output/folder/"
+outputFolder <- "./output/folder/"
 
 # fill in your connection details and path to driver
 # see ?DatabaseConnector::createConnectionDetails for help for your 
