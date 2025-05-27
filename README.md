@@ -27,17 +27,18 @@ library(dplyr)
 # Set working directory to Renv file
 #==========================================#
 #Download the Renv lock file from the GitHub page
-#Set working directory to the Renv file
+
+#Set working directory to the Renv lock file
 setwd()
 #Check whether the working directory was adjusted
 .libPaths()
 
 #Activate Renv
 renv::activate()
-#Restart R session and consecutively restore
+#Restore R lock file
 renv::restore()
-
-#==========================================#
+#Restart R session
+.rs.restartR()
 
 # Inputs to run (edit these for your CDM):
 # ========================================= #
