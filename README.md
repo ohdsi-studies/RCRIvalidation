@@ -19,10 +19,6 @@ Code to run
 
 ```r
 
-library(renv)
-library(RCRIvalidation)
-library(Strategus)
-library(dplyr)
 
 # Set working directory to Renv file
 #==========================================#
