@@ -26,18 +26,18 @@ library(dplyr)
 
 # Set working directory to Renv file
 #==========================================#
-#Download the Renv lock file from the GitHub page
+# Download the Renv lock file from the GitHub page
 
-#Set working directory to the Renv lock file
+# Set working directory to the Renv lock file
 setwd()
-#Check whether the working directory was adjusted
+# Check whether the working directory was adjusted
 .libPaths()
 
-#Activate Renv
+# Activate Renv
 renv::activate()
-#Restore R lock file
+# Restore R lock file
 renv::restore()
-#Restart R session
+# Restart R session
 .rs.restartR()
 
 # Inputs to run (edit these for your CDM):
@@ -47,11 +47,11 @@ if (!Sys.getenv("DATABASE_TEMP_SCHEMA") == "") {
   options(sqlRenderTempEmulationSchema = Sys.getenv("DATABASE_TEMP_SCHEMA"))
 }
 
-# where to save the output - a directory in your environment
+# Where to save the output - a directory in your environment
 outputFolder <- "./output/folder/"
 
-# fill in your connection details and path to driver
-# see ?DatabaseConnector::createConnectionDetails for help for your 
+# Fill in your connection details and path to driver
+# See ?DatabaseConnector::createConnectionDetails for help for your 
 # database platform
 connectionDetails <- DatabaseConnector::createConnectionDetails(
   dbms = Sys.getenv("DBMS"), 
@@ -66,10 +66,10 @@ connectionDetails <- DatabaseConnector::createConnectionDetails(
 # A schema with write access to store cohort tables
 workDatabaseSchema <- Sys.getenv("WORK_SCHEMA")
   
-# name of cohort table that will be created for study
+# Name of cohort table that will be created for study
 cohortTable <- Sys.getenv("COHORT_TABLE")
 
-# schema where the cdm data is
+# Schema where the cdm data is
 cdmDatabaseSchema <- Sys.getenv("CDM_SCHEMA")
 
 # Aggregated statistics with cell count less than this are removed before sharing results.
@@ -95,7 +95,7 @@ Strategus::execute(
 )
 
 #======================================#
-#Don't forget to deactivate your Renv
+# Don't forget to deactivate your Renv
 renv::deactivate()
 
 ```
