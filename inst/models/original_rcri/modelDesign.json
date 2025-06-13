@@ -84,6 +84,11 @@
   },
   "modelSettings": {
     "model": "existingGlm",
+    "param": {
+      "attr_settings": {
+        "modelType": "GLM"
+      }
+    },
     "attr_class": "modelSettings"
   },
   "splitSettings": {
