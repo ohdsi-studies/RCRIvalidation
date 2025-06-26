@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-06-14">
+<meta name="dcterms.date" content="2025-06-26">
 
 <title>Protocol: RCRI Validation Study</title>
 <style>
@@ -2159,9 +2159,9 @@ vertical-align: -.125em;
   <li><a href="#plans-for-disseminating-and-communicating-study-results" id="toc-plans-for-disseminating-and-communicating-study-results" class="nav-link" data-scroll-target="#plans-for-disseminating-and-communicating-study-results">Plans for disseminating and communicating study results</a></li>
   <li><a href="#sponsor-or-the-project-the-study-is-part-of" id="toc-sponsor-or-the-project-the-study-is-part-of" class="nav-link" data-scroll-target="#sponsor-or-the-project-the-study-is-part-of">Sponsor or the project the study is part of</a></li>
   <li><a href="#pis-and-partners" id="toc-pis-and-partners" class="nav-link" data-scroll-target="#pis-and-partners">PIs and partners</a></li>
-  <li><a href="#data-governance-how-data-are-handled-pseudonymized-etc." id="toc-data-governance-how-data-are-handled-pseudonymized-etc." class="nav-link" data-scroll-target="#data-governance-how-data-are-handled-pseudonymized-etc.">Data governance (how data are handled, pseudonymized, etc.)</a></li>
-  <li><a href="#ethicallegal-basis-for-data-processing-without-consent-e.g.-public-interest-under-gdpr-national-frameworks-etc." id="toc-ethicallegal-basis-for-data-processing-without-consent-e.g.-public-interest-under-gdpr-national-frameworks-etc." class="nav-link" data-scroll-target="#ethicallegal-basis-for-data-processing-without-consent-e.g.-public-interest-under-gdpr-national-frameworks-etc.">Ethical/legal basis for data processing without consent (e.g., public interest under GDPR, national frameworks, etc.)</a></li>
-  <li><a href="#references-from-preliminary-manuscript-of-the-rcri-validation" id="toc-references-from-preliminary-manuscript-of-the-rcri-validation" class="nav-link" data-scroll-target="#references-from-preliminary-manuscript-of-the-rcri-validation">References (from preliminary manuscript of the RCRI validation)</a></li>
+  <li><a href="#data-governance" id="toc-data-governance" class="nav-link" data-scroll-target="#data-governance">Data governance</a></li>
+  <li><a href="#ethical-aspects" id="toc-ethical-aspects" class="nav-link" data-scroll-target="#ethical-aspects">Ethical aspects</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
 </div>
@@ -2182,7 +2182,7 @@ vertical-align: -.125em;
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 14, 2025</p>
+      <p class="date">June 26, 2025</p>
     </div>
   </div>
   
@@ -3370,16 +3370,16 @@ WHERE F.ordinal = 1</code></pre>
 <p>Database; Acronym; Type; Country; Contributors</p>
 <p>IBM MarketScan® Medicare Supplemental Database; MDCR; Claims; USA; Jenna Reps IBM MarketScan® Medicaid Supplemental Database; MDCD; Claims; USA; Jenna Reps Japan Medical Data Center; JMDC; Claims; Japan; Jenna Reps IBM MarketScan Commercial Claims and Encounters Database; CCAE; Claims; USA; Jenna Reps Optum® de-identifed Electronic Health Record dataset; Optum EHR; EHR; USA; Jenna Reps STAnford medicine Research data Repository-OMOP; STARR; EHR; USA; Hannah Morgan-Cooper Tufts Medical Center; Tufts; EHR; USA; Jared Houghtaling University of Colorado Anschutz Medical Campus-Health Data Compass; CU_AMC; EHR; USA; Andrey Soares Parc de Salut Mar Barcelona Information System; IMASIS; EHR; Spain; Miguel-Angel Mayer, Maria de los Angeles Leis Machin IIS La Fe; HULAFE; EHR; Spain; Alvaro Martínez Pérez Carlos Lopez Gomez Albert Einstein Israelita Hospital; Einstein; EHR; Brazil; Cesar Truyts Center for Surgical Science; Css; EHR; Denmark; Andreas Weinberger Rosen</p>
 </section>
-<section id="data-governance-how-data-are-handled-pseudonymized-etc." class="level2">
-<h2 class="anchored" data-anchor-id="data-governance-how-data-are-handled-pseudonymized-etc.">Data governance (how data are handled, pseudonymized, etc.)</h2>
-<p>The OMOP common data model uses pseudomynized patient data. How data are handled is the responsibility of the local institute. A federated analysis is performed across 12 databases. Consecutively, the results are aggregated. The minCellCount is set to 5 by default, meaning values in the source data that appear less than 5 times will not appear in the report. This can vary depending on the institute.</p>
+<section id="data-governance" class="level2">
+<h2 class="anchored" data-anchor-id="data-governance">Data governance</h2>
+<p>This observational study is based on a federated network approach, in which each data partner performs the analysis locally and only shares aggregated data, therefore the analyses will be performed separately for each database. Data partners locally run the analyses in the standards OMOP-CDM format using R Studio, sharing only aggregated results. How data are handled is the responsibility of the local institute.</p>
 </section>
-<section id="ethicallegal-basis-for-data-processing-without-consent-e.g.-public-interest-under-gdpr-national-frameworks-etc." class="level2">
-<h2 class="anchored" data-anchor-id="ethicallegal-basis-for-data-processing-without-consent-e.g.-public-interest-under-gdpr-national-frameworks-etc.">Ethical/legal basis for data processing without consent (e.g., public interest under GDPR, national frameworks, etc.)</h2>
-<p>We acknowledge that the use of retrospective observational healthcare data is vital for advancing medical research and improving patient outcomes. In this study, we have employed data from sources where patient identifiers have been pseudonymised in compliance with applicable data protection laws and ethical guidelines. As the data does not contain personally identifiable information, and because the risk of re-identification is minimized, we do not seek individual patient consent for the use of these data. This study adheres to ethical principles including beneficence, non-maleficence, and respect for participants’ privacy.</p>
+<section id="ethical-aspects" class="level2">
+<h2 class="anchored" data-anchor-id="ethical-aspects">Ethical aspects</h2>
+<p>In this study, the legal basis enabling the processing of personal data is grounded in compliance with a mission in the public interest or the exercise of public authority. Consequently, the researchers commit to adhering to national and international guidelines on the processing of personal data. For this reason, explicit consent does not apply, and an exemption from informed consent for the study is requested. This study is conducted within the framework of scientific or statistical research and is of public interest in the field of public health. Data processing is carried out in a pseudonymized manner, ensuring technical and functional separation. In this study, appropriate measures have been taken for the processing of data without the consent of the data subject, in accordance with the Declaration of Helsinki of the World Medical Association.</p>
 </section>
-<section id="references-from-preliminary-manuscript-of-the-rcri-validation" class="level2">
-<h2 class="anchored" data-anchor-id="references-from-preliminary-manuscript-of-the-rcri-validation">References (from preliminary manuscript of the RCRI validation)</h2>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
 <ol type="1">
 <li>Weiser TG HA, Molina G, Lipsitz SR, Esquivel MM, Uribe-Leitz T. Estimate of the global volume of surgery in 2012: an assessment supporting improved health outcomes. Surgical Services: Access and Coverage. 2015.</li>
 <li>Ford MK SBW, Wijeysundera DN. Systematic review: prediction of perioperative cardiac complications and mortality by the revised cardiac risk index. Annals of internal medicine. 2010;152:26-35.</li>
