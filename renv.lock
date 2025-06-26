@@ -271,16 +271,7 @@
       "RemoteUsername": "ohdsi-studies",
       "RemoteRepo": "RCRIvalidation",
       "RemoteRef": "main",
-      "RemoteSha": "dfb87fd6226d517ed55a488d85a69e2dcfbdbab1",
-      "Requirements": [
-        "DatabaseConnector",
-        "ParallelLogger",
-        "R",
-        "Strategus",
-        "dplyr",
-        "ggplot2"
-      ],
-      "Hash": "30043740501860142c58a0769eb761c5"
+      "RemoteSha": "25c9dc3232b3fda1b6f207e187bec00591b342e6"
     },
     "RColorBrewer": {
       "Package": "RColorBrewer",
@@ -683,20 +674,9 @@
     },
     "duckdb": {
       "Package": "duckdb",
-      "Version": "1.2.2.9001",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "duckdb-r",
-      "RemoteUsername": "duckdb",
-      "RemoteSha": "f3445761a8b0b857f4ad17245721f2a460e5872b",
-      "Requirements": [
-        "DBI",
-        "R",
-        "methods",
-        "utils"
-      ],
-      "Hash": "02ba331e11abe9d646754191e6a0160c"
+      "Version": "1.2.2",
+      "Source": "Repository",
+      "Repository": "CRAN"
     },
     "fansi": {
       "Package": "fansi",
