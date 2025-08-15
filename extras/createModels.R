@@ -39,15 +39,15 @@ RCRIoriginal <- updatedRCRImap <- "function(y){ sapply(y, function(x){
 RCRIrecalibrated <- updatedRCRImap <- "function(x){
   singleMap <- function(x){
     if(x == 0){
-      return(0.004)
+      return(0.039)
     } else if(x == 1){
-      return(0.009)
+      return(0.06)
     } else if(x == 2){
-      return(0.07)
+      return(0.101)
     } else if(x == 3){
-      return(0.11)
+      return(0.101)
     } else if(x > 3){
-      return(0.11)
+      return(0.15)
     }
   }
   
