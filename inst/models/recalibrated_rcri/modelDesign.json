@@ -57,7 +57,7 @@
     "minTimeAtRisk": 364,
     "riskWindowStart": 1,
     "startAnchor": "cohort start",
-    "riskWindowEnd": 365,
+    "riskWindowEnd": 30,
     "endAnchor": "cohort start",
     "restrictTarToCohortEnd": false,
     "attr_class": "populationSettings"
