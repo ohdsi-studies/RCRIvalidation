@@ -111,7 +111,7 @@ To send the compressed folder results please message Alexander Saelmans (a.saelm
 # One time R package install
 install_github("ohdsi/OhdsiSharing")
  
-# Upload local file '/tmp/results.csv.gz' to sftp server study folder using the '/tmp/study-data-site-rcriv' data site role private key
+# Upload local file '/tmp/results.csv.gz' to sftp server study folder
 library("OhdsiSharing")
  
 privateKeyFileName <- "message us for this"
