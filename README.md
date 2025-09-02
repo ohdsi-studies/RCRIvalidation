@@ -103,24 +103,21 @@ To send the compressed folder results please message Alexander Saelmans (a.saelm
 
 ```r
 
-# This R code demonstrates how a study data site role can upload a local file (for example a results csv gzip file) to the sftp rcriv study folder
-# In this example R code a file called "/tmp/results.csv.gz" must exist on the local machine and will be uploaded to the OHDSI sftp server rcriv study folder
-
 # Please upload both the strategusWork and strategusOutput folders
  
 # One time R package install
 install_github("ohdsi/OhdsiSharing")
  
-# Upload local file '/tmp/results.csv.gz' to sftp server study folder
+# Upload local files 'strategusWork.zip' and 'strategusOutput.zip to the sftp server study folder
 library("OhdsiSharing")
  
 privateKeyFileName <- "message us for this"
 userName <- "message us for this"
 remoteFolder <- "/"
-fileName <- "/tmp/results.csv.gz"
+fileName <- "example/strategusWork.zip"
 sftpUploadFile(privateKeyFileName, userName, remoteFolder, fileName)
 
-# Please send us the names given to the zip files in the sftp rcriv study folder, so we can access it
+# Please send us the names given to the zip files in the sftp rcriv study folder, so we can access them
 
 ```
 
