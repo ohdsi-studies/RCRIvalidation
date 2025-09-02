@@ -95,3 +95,31 @@ Strategus::execute(
 renv::deactivate()
 
 ```
+
+Submitting Results
+========
+
+```r
+
+Example R code
+This R code demonstrates how a study data site role can upload a local file (for example a results csv gzip file) to the sftp rcriv study folder
+ 
+# In this example R code a file called "/tmp/results.csv.gz" must exist on the local machine and will be uploaded to the OHDSI sftp server rcriv study folder
+ 
+# one time R package install
+install_github("ohdsi/OhdsiSharing")
+ 
+# upload local file '/tmp/results.csv.gz' to sftp server study folder using the '/tmp/study-data-site-rcriv' data site role private key
+ 
+library("OhdsiSharing")
+ 
+# this data site private key file should only be shared with the study data site users - it must not be shared publicly
+privateKeyFileName <- "message us for this"
+userName <- "message us for this"
+remoteFolder <- "/"
+fileName <- "/tmp/results.csv.gz"
+sftpUploadFile(privateKeyFileName, userName, remoteFolder, fileName)
+
+
+```
+
