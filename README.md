@@ -101,9 +101,7 @@ Submitting Results
 
 ```r
 
-Example R code
-This R code demonstrates how a study data site role can upload a local file (for example a results csv gzip file) to the sftp rcriv study folder
- 
+# This R code demonstrates how a study data site role can upload a local file (for example a results csv gzip file) to the sftp rcriv study folder
 # In this example R code a file called "/tmp/results.csv.gz" must exist on the local machine and will be uploaded to the OHDSI sftp server rcriv study folder
  
 # one time R package install
