@@ -99,6 +99,8 @@ renv::deactivate()
 Submitting Results
 ========
 
+To send the compressed folder results please message Alexander Saelmans (a.saelmans@erasmusmc.nl) and he will give you the privateKeyFileName and userName. You can then run the following R code to share the results:
+
 ```r
 
 # This R code demonstrates how a study data site role can upload a local file (for example a results csv gzip file) to the sftp rcriv study folder
