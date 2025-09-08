@@ -271,7 +271,7 @@
       "RemoteUsername": "ohdsi-studies",
       "RemoteRepo": "RCRIvalidation",
       "RemoteRef": "main",
-      "RemoteSha": "e90a9faccdfca8d0ec551d3bbedb53da11c22507"
+      "RemoteSha": "40b2a7e8017aaf2db54da531a18bb364dade62ca"
     },
     "RColorBrewer": {
       "Package": "RColorBrewer",
