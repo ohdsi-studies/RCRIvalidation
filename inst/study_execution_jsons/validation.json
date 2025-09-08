@@ -50,7 +50,7 @@
     {
       "module": "CohortDiagnosticsModule",
       "settings": {
-        "runInclusionStatistics": true,
+        "runInclusionStatistics": false,
         "runIncludedSourceConcepts": true,
         "runOrphanConcepts": true,
         "runTimeSeries": false,
@@ -120,14 +120,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20100101",
-              "studyEndDate": "20100630",
+              "studyEndDate": "20100629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -144,14 +144,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20100701",
-              "studyEndDate": "20101231",
+              "studyEndDate": "20101230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -168,14 +168,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20110101",
-              "studyEndDate": "20110630",
+              "studyEndDate": "20110629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -192,14 +192,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20110701",
-              "studyEndDate": "20111231",
+              "studyEndDate": "20111230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -216,14 +216,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20120101",
-              "studyEndDate": "20120630",
+              "studyEndDate": "20120629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -240,14 +240,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20120701",
-              "studyEndDate": "20121231",
+              "studyEndDate": "20121230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -264,14 +264,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20130101",
-              "studyEndDate": "20130630",
+              "studyEndDate": "20130629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -288,14 +288,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20130701",
-              "studyEndDate": "20131231",
+              "studyEndDate": "20131230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -312,14 +312,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20140101",
-              "studyEndDate": "20140630",
+              "studyEndDate": "20140629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -336,14 +336,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20140701",
-              "studyEndDate": "20141231",
+              "studyEndDate": "20141230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -360,14 +360,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20150101",
-              "studyEndDate": "20150630",
+              "studyEndDate": "20150629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -384,14 +384,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20150701",
-              "studyEndDate": "20151231",
+              "studyEndDate": "20151230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -408,14 +408,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20160101",
-              "studyEndDate": "20160630",
+              "studyEndDate": "20160629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -432,14 +432,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20160701",
-              "studyEndDate": "20161231",
+              "studyEndDate": "20161230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -456,14 +456,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20170101",
-              "studyEndDate": "20170630",
+              "studyEndDate": "20170629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -480,14 +480,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20170701",
-              "studyEndDate": "20171231",
+              "studyEndDate": "20171230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -504,14 +504,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20180101",
-              "studyEndDate": "20180630",
+              "studyEndDate": "20180629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -528,14 +528,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20180701",
-              "studyEndDate": "20181231",
+              "studyEndDate": "20181230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -552,14 +552,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20190101",
-              "studyEndDate": "20190630",
+              "studyEndDate": "20190629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -576,14 +576,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20190701",
-              "studyEndDate": "20191231",
+              "studyEndDate": "20191230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -600,14 +600,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20200101",
-              "studyEndDate": "20200630",
+              "studyEndDate": "20200629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -624,14 +624,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20200701",
-              "studyEndDate": "20201231",
+              "studyEndDate": "20201230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -648,14 +648,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20210101",
-              "studyEndDate": "20210630",
+              "studyEndDate": "20210629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -672,14 +672,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20210701",
-              "studyEndDate": "20211231",
+              "studyEndDate": "20211230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -696,14 +696,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20220101",
-              "studyEndDate": "20220630",
+              "studyEndDate": "20220629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -720,14 +720,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20220701",
-              "studyEndDate": "20221231",
+              "studyEndDate": "20221230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -744,14 +744,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20230101",
-              "studyEndDate": "20230630",
+              "studyEndDate": "20230629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -768,14 +768,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20230701",
-              "studyEndDate": "20231231",
+              "studyEndDate": "20231230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -792,14 +792,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/original_rcri",
+                "modelFolder": "./inst/models/original_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20240101",
-              "studyEndDate": "20240601",
+              "studyEndDate": "20240629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -816,14 +816,62 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/original_rcri",
+                "package": "RCRIvalidation",
+                "attr_class": "plpModel"
+              }
+            ],
+            "restrictPlpDataSettings": {
+              "studyStartDate": "20240701",
+              "studyEndDate": "20241230",
+              "firstExposureOnly": false,
+              "washoutPeriod": 0,
+              "sampleSize": null,
+              "attr_class": "restrictPlpDataSettings"
+            },
+            "recalibrate": "weakRecalibration",
+            "runCovariateSummary": true,
+            "attr_class": "validationDesign"
+          },
+          {
+            "targetId": 19684,
+            "outcomeId": 19683,
+            "populationSettings": null,
+            "plpModelList": [
+              {
+                "type": "package",
+                "modelFolder": "./inst/models/original_rcri",
+                "package": "RCRIvalidation",
+                "attr_class": "plpModel"
+              }
+            ],
+            "restrictPlpDataSettings": {
+              "studyStartDate": "20250101",
+              "studyEndDate": "20250601",
+              "firstExposureOnly": false,
+              "washoutPeriod": 0,
+              "sampleSize": null,
+              "attr_class": "restrictPlpDataSettings"
+            },
+            "recalibrate": "weakRecalibration",
+            "runCovariateSummary": true,
+            "attr_class": "validationDesign"
+          },
+          {
+            "targetId": 19684,
+            "outcomeId": 19683,
+            "populationSettings": null,
+            "plpModelList": [
+              {
+                "type": "package",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20100101",
-              "studyEndDate": "20100630",
+              "studyEndDate": "20100629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -840,14 +888,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20100701",
-              "studyEndDate": "20101231",
+              "studyEndDate": "20101230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -864,14 +912,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20110101",
-              "studyEndDate": "20110630",
+              "studyEndDate": "20110629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -888,14 +936,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20110701",
-              "studyEndDate": "20111231",
+              "studyEndDate": "20111230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -912,14 +960,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20120101",
-              "studyEndDate": "20120630",
+              "studyEndDate": "20120629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -936,14 +984,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20120701",
-              "studyEndDate": "20121231",
+              "studyEndDate": "20121230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -960,14 +1008,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20130101",
-              "studyEndDate": "20130630",
+              "studyEndDate": "20130629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -984,14 +1032,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20130701",
-              "studyEndDate": "20131231",
+              "studyEndDate": "20131230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1008,14 +1056,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20140101",
-              "studyEndDate": "20140630",
+              "studyEndDate": "20140629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1032,14 +1080,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20140701",
-              "studyEndDate": "20141231",
+              "studyEndDate": "20141230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1056,14 +1104,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20150101",
-              "studyEndDate": "20150630",
+              "studyEndDate": "20150629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1080,14 +1128,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20150701",
-              "studyEndDate": "20151231",
+              "studyEndDate": "20151230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1104,14 +1152,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20160101",
-              "studyEndDate": "20160630",
+              "studyEndDate": "20160629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1128,14 +1176,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20160701",
-              "studyEndDate": "20161231",
+              "studyEndDate": "20161230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1152,14 +1200,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20170101",
-              "studyEndDate": "20170630",
+              "studyEndDate": "20170629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1176,14 +1224,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20170701",
-              "studyEndDate": "20171231",
+              "studyEndDate": "20171230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1200,14 +1248,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20180101",
-              "studyEndDate": "20180630",
+              "studyEndDate": "20180629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1224,14 +1272,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20180701",
-              "studyEndDate": "20181231",
+              "studyEndDate": "20181230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1248,14 +1296,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20190101",
-              "studyEndDate": "20190630",
+              "studyEndDate": "20190629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1272,14 +1320,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20190701",
-              "studyEndDate": "20191231",
+              "studyEndDate": "20191230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1296,14 +1344,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20200101",
-              "studyEndDate": "20200630",
+              "studyEndDate": "20200629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1320,14 +1368,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20200701",
-              "studyEndDate": "20201231",
+              "studyEndDate": "20201230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1344,14 +1392,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20210101",
-              "studyEndDate": "20210630",
+              "studyEndDate": "20210629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1368,14 +1416,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20210701",
-              "studyEndDate": "20211231",
+              "studyEndDate": "20211230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1392,14 +1440,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20220101",
-              "studyEndDate": "20220630",
+              "studyEndDate": "20220629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1416,14 +1464,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20220701",
-              "studyEndDate": "20221231",
+              "studyEndDate": "20221230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1440,14 +1488,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20230101",
-              "studyEndDate": "20230630",
+              "studyEndDate": "20230629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1464,14 +1512,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20230701",
-              "studyEndDate": "20231231",
+              "studyEndDate": "20231230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1488,14 +1536,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/omoped_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20240101",
-              "studyEndDate": "20240601",
+              "studyEndDate": "20240629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1512,14 +1560,62 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/recalibrated_rcri",
+                "package": "RCRIvalidation",
+                "attr_class": "plpModel"
+              }
+            ],
+            "restrictPlpDataSettings": {
+              "studyStartDate": "20240701",
+              "studyEndDate": "20241230",
+              "firstExposureOnly": false,
+              "washoutPeriod": 0,
+              "sampleSize": null,
+              "attr_class": "restrictPlpDataSettings"
+            },
+            "recalibrate": "weakRecalibration",
+            "runCovariateSummary": true,
+            "attr_class": "validationDesign"
+          },
+          {
+            "targetId": 19684,
+            "outcomeId": 19683,
+            "populationSettings": null,
+            "plpModelList": [
+              {
+                "type": "package",
+                "modelFolder": "./inst/models/recalibrated_rcri",
+                "package": "RCRIvalidation",
+                "attr_class": "plpModel"
+              }
+            ],
+            "restrictPlpDataSettings": {
+              "studyStartDate": "20250101",
+              "studyEndDate": "20250601",
+              "firstExposureOnly": false,
+              "washoutPeriod": 0,
+              "sampleSize": null,
+              "attr_class": "restrictPlpDataSettings"
+            },
+            "recalibrate": "weakRecalibration",
+            "runCovariateSummary": true,
+            "attr_class": "validationDesign"
+          },
+          {
+            "targetId": 19684,
+            "outcomeId": 19683,
+            "populationSettings": null,
+            "plpModelList": [
+              {
+                "type": "package",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20100101",
-              "studyEndDate": "20100630",
+              "studyEndDate": "20100629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1536,14 +1632,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20100701",
-              "studyEndDate": "20101231",
+              "studyEndDate": "20101230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1560,14 +1656,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20110101",
-              "studyEndDate": "20110630",
+              "studyEndDate": "20110629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1584,14 +1680,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20110701",
-              "studyEndDate": "20111231",
+              "studyEndDate": "20111230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1608,14 +1704,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20120101",
-              "studyEndDate": "20120630",
+              "studyEndDate": "20120629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1632,14 +1728,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20120701",
-              "studyEndDate": "20121231",
+              "studyEndDate": "20121230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1656,14 +1752,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20130101",
-              "studyEndDate": "20130630",
+              "studyEndDate": "20130629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1680,14 +1776,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20130701",
-              "studyEndDate": "20131231",
+              "studyEndDate": "20131230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1704,14 +1800,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20140101",
-              "studyEndDate": "20140630",
+              "studyEndDate": "20140629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1728,14 +1824,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20140701",
-              "studyEndDate": "20141231",
+              "studyEndDate": "20141230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1752,14 +1848,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20150101",
-              "studyEndDate": "20150630",
+              "studyEndDate": "20150629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1776,14 +1872,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20150701",
-              "studyEndDate": "20151231",
+              "studyEndDate": "20151230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1800,14 +1896,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20160101",
-              "studyEndDate": "20160630",
+              "studyEndDate": "20160629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1824,14 +1920,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20160701",
-              "studyEndDate": "20161231",
+              "studyEndDate": "20161230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1848,14 +1944,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20170101",
-              "studyEndDate": "20170630",
+              "studyEndDate": "20170629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1872,14 +1968,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20170701",
-              "studyEndDate": "20171231",
+              "studyEndDate": "20171230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1896,14 +1992,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20180101",
-              "studyEndDate": "20180630",
+              "studyEndDate": "20180629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1920,14 +2016,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20180701",
-              "studyEndDate": "20181231",
+              "studyEndDate": "20181230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1944,14 +2040,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20190101",
-              "studyEndDate": "20190630",
+              "studyEndDate": "20190629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1968,14 +2064,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20190701",
-              "studyEndDate": "20191231",
+              "studyEndDate": "20191230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -1992,14 +2088,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20200101",
-              "studyEndDate": "20200630",
+              "studyEndDate": "20200629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -2016,14 +2112,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20200701",
-              "studyEndDate": "20201231",
+              "studyEndDate": "20201230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -2040,14 +2136,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20210101",
-              "studyEndDate": "20210630",
+              "studyEndDate": "20210629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -2064,14 +2160,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20210701",
-              "studyEndDate": "20211231",
+              "studyEndDate": "20211230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -2088,14 +2184,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20220101",
-              "studyEndDate": "20220630",
+              "studyEndDate": "20220629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -2112,14 +2208,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20220701",
-              "studyEndDate": "20221231",
+              "studyEndDate": "20221230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -2136,14 +2232,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20230101",
-              "studyEndDate": "20230630",
+              "studyEndDate": "20230629",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -2160,14 +2256,14 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20230701",
-              "studyEndDate": "20231231",
+              "studyEndDate": "20231230",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
@@ -2184,14 +2280,62 @@
             "plpModelList": [
               {
                 "type": "package",
-                "modelFolder": "models/recalibrated_rcri",
+                "modelFolder": "./inst/models/mdcalc_rcri",
                 "package": "RCRIvalidation",
                 "attr_class": "plpModel"
               }
             ],
             "restrictPlpDataSettings": {
               "studyStartDate": "20240101",
-              "studyEndDate": "20240601",
+              "studyEndDate": "20240629",
+              "firstExposureOnly": false,
+              "washoutPeriod": 0,
+              "sampleSize": null,
+              "attr_class": "restrictPlpDataSettings"
+            },
+            "recalibrate": "weakRecalibration",
+            "runCovariateSummary": true,
+            "attr_class": "validationDesign"
+          },
+          {
+            "targetId": 19684,
+            "outcomeId": 19683,
+            "populationSettings": null,
+            "plpModelList": [
+              {
+                "type": "package",
+                "modelFolder": "./inst/models/mdcalc_rcri",
+                "package": "RCRIvalidation",
+                "attr_class": "plpModel"
+              }
+            ],
+            "restrictPlpDataSettings": {
+              "studyStartDate": "20240701",
+              "studyEndDate": "20241230",
+              "firstExposureOnly": false,
+              "washoutPeriod": 0,
+              "sampleSize": null,
+              "attr_class": "restrictPlpDataSettings"
+            },
+            "recalibrate": "weakRecalibration",
+            "runCovariateSummary": true,
+            "attr_class": "validationDesign"
+          },
+          {
+            "targetId": 19684,
+            "outcomeId": 19683,
+            "populationSettings": null,
+            "plpModelList": [
+              {
+                "type": "package",
+                "modelFolder": "./inst/models/mdcalc_rcri",
+                "package": "RCRIvalidation",
+                "attr_class": "plpModel"
+              }
+            ],
+            "restrictPlpDataSettings": {
+              "studyStartDate": "20250101",
+              "studyEndDate": "20250601",
               "firstExposureOnly": false,
               "washoutPeriod": 0,
               "sampleSize": null,
