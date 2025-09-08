@@ -9,7 +9,7 @@ predictorIds <- c(19685,19695,19687,19690,19686,19691) # ATLAS ids for predictor
 # specify the time-at-risk and remove requring full 365 days
 populationSettings <- PatientLevelPrediction::createStudyPopulationSettings(
   requireTimeAtRisk = FALSE, 
-  riskWindowStart = 1, 
+  riskWindowStart = 0, 
   startAnchor = 'cohort start',
   riskWindowEnd = 30, 
   endAnchor = 'cohort start'
