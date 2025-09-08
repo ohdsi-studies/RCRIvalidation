@@ -38,30 +38,30 @@ RCRIoriginal <- updatedRCRImap <- "function(y){ sapply(y, function(x){
 #MAPPING FOR THE RECALIBRATED RCRI
 RCRIrecalibrated <- updatedRCRImap <- "function(y){ sapply(y, function(x){
     if(x == 0){
-      return()
+      return(0.039)
     } else if(x == 1){
-      return()
+      return(0.06)
     } else if(x == 2){
-      return()
+      return(0.101)
     } else if(x == 3){
-      return()
+      return(0.15)
     } else if(x > 3){
-      return()
+      return(0.15)
     }
 })}"
 
 #MAPPING FOR MDCALC RCRI
 RCRImdcalc <- updatedRCRImap <- "function(y){ sapply(y, function(x){
     if(x == 0){
-      return()
+      return(0.005)
     } else if(x == 1){
-      return()
+      return(0.011)
     } else if(x == 2){
-      return()
+      return(0.05)
     } else if(x == 3){
-      return()
+      return(0.10)
     } else if(x > 3){
-      return()
+      return(0.10)
     }
 })}"
 
