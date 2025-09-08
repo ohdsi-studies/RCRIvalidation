@@ -1,0 +1,107 @@
+{
+  "targetId": 19684,
+  "outcomeId": 19683,
+  "restrictPlpDataSettings": {
+    "studyStartDate": "",
+    "studyEndDate": "",
+    "firstExposureOnly": false,
+    "washoutPeriod": 0,
+    "sampleSize": null,
+    "attr_class": "restrictPlpDataSettings"
+  },
+  "covariateSettings": [
+    {
+      "temporal": false,
+      "temporalSequence": false,
+      "analysisId": 668,
+      "covariateCohortDatabaseSchema": "",
+      "covariateCohortTable": "",
+      "covariateCohorts": {
+        "cohortId": [19685, 19695, 19687, 19690, 19686, 19691],
+        "cohortName": ["Elevated risk surgery", "Renal impairment creatinine", "Ischemic heart disease", "Cerebrovascular disease", "Heart failure", "Insulin"],
+        "attr_class": "data.frame",
+        "attr_row.names": [1, 2, 3, 4, 5, 6]
+      },
+      "valueType": "binary",
+      "startDay": -365,
+      "endDay": 0,
+      "warnOnAnalysisIdOverlap": true,
+      "attr_class": "covariateSettings",
+      "attr_fun": "getDbCohortBasedCovariatesData"
+    },
+    {
+      "temporal": false,
+      "temporalSequence": false,
+      "DemographicsAge": true,
+      "longTermStartDays": -365,
+      "mediumTermStartDays": -180,
+      "shortTermStartDays": -30,
+      "endDays": 0,
+      "includedCovariateConceptIds": [],
+      "addDescendantsToInclude": false,
+      "excludedCovariateConceptIds": [],
+      "addDescendantsToExclude": false,
+      "includedCovariateIds": [],
+      "attr_class": "covariateSettings",
+      "attr_fun": "getDbDefaultCovariateData"
+    }
+  ],
+  "populationSettings": {
+    "binary": true,
+    "includeAllOutcomes": true,
+    "firstExposureOnly": false,
+    "washoutPeriod": 0,
+    "removeSubjectsWithPriorOutcome": true,
+    "priorOutcomeLookback": 99999,
+    "requireTimeAtRisk": false,
+    "minTimeAtRisk": 364,
+    "riskWindowStart": 0,
+    "startAnchor": "cohort start",
+    "riskWindowEnd": 30,
+    "endAnchor": "cohort start",
+    "restrictTarToCohortEnd": false,
+    "attr_class": "populationSettings"
+  },
+  "sampleSettings": [
+    {
+      "numberOutcomestoNonOutcomes": 1,
+      "sampleSeed": 1,
+      "attr_class": "sampleSettings",
+      "attr_fun": "sameData"
+    }
+  ],
+  "featureEngineeringSettings": [
+    {
+      "attr_class": "featureEngineeringSettings",
+      "attr_fun": "sameData"
+    }
+  ],
+  "preprocessSettings": {
+    "minFraction": 0,
+    "normalize": false,
+    "removeRedundancy": false,
+    "attr_class": "preprocessSettings"
+  },
+  "modelSettings": {
+    "model": "existingGlm",
+    "attr_class": "modelSettings"
+  },
+  "splitSettings": {
+    "test": 0.25,
+    "train": 0.75,
+    "seed": 123,
+    "nfold": 3,
+    "attr_class": "splitSettings",
+    "attr_fun": "randomSplitter"
+  },
+  "executeSettings": {
+    "runSplitData": true,
+    "runSampleData": false,
+    "runFeatureEngineering": false,
+    "runPreprocessData": true,
+    "runModelDevelopment": true,
+    "runCovariateSummary": true,
+    "attr_class": "executeSettings"
+  },
+  "attr_class": "modelDesign"
+}
