@@ -25,7 +25,7 @@ cohortDefinitionSet <- ROhdsiWebApi::exportCohortDefinitionSet(
 # Cohort Diagnostics -----------------
 cdModuleSettingsCreator <- CohortDiagnosticsModule$new()
 cdModuleSpecifications <- cdModuleSettingsCreator$createModuleSpecifications(
-  runInclusionStatistics = TRUE,
+  runInclusionStatistics = FALSE,
   runIncludedSourceConcepts = TRUE,
   runOrphanConcepts = TRUE,
   runTimeSeries = FALSE,
