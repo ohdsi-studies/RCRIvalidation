@@ -6,6 +6,6 @@
     "attr_class": "data.frame",
     "attr_row.names": [1, 2, 3, 4, 5, 6]
   },
-  "mapping": "function(x){\n  singleMap <- function(x){\n    if(x == 0){\n      return(0.039)\n    } else if(x == 1){\n      return(0.06)\n    } else if(x == 2){\n      return(0.101)\n    } else if(x == 3){\n      return(0.15)\n    } else if(x > 3){\n      return(0.15)\n    }\n  }\n  \n  result <- sapply(X = x, FUN = singleMap)\n  return(result)\n}",
+  "mapping": "function(y){ sapply(y, function(x){\n    if(x == 0){\n      return(0.039)\n    } else if(x == 1){\n      return(0.06)\n    } else if(x == 2){\n      return(0.101)\n    } else if(x == 3){\n      return(0.15)\n    } else if(x > 3){\n      return(0.15)\n    }\n})}",
   "predictionFunction": "PatientLevelPrediction::predictGlm"
 }

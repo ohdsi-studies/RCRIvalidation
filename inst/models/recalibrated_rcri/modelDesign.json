@@ -55,7 +55,7 @@
     "priorOutcomeLookback": 99999,
     "requireTimeAtRisk": false,
     "minTimeAtRisk": 364,
-    "riskWindowStart": 1,
+    "riskWindowStart": 0,
     "startAnchor": "cohort start",
     "riskWindowEnd": 30,
     "endAnchor": "cohort start",
@@ -84,11 +84,6 @@
   },
   "modelSettings": {
     "model": "existingGlm",
-    "param": {
-      "attr_settings": {
-        "modelType": "GLM"
-      }
-    },
     "attr_class": "modelSettings"
   },
   "splitSettings": {
