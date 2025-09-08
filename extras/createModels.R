@@ -36,25 +36,35 @@ RCRIoriginal <- updatedRCRImap <- "function(y){ sapply(y, function(x){
 
 
 #MAPPING FOR THE RECALIBRATED RCRI
-RCRIrecalibrated <- updatedRCRImap <- "function(x){
-  singleMap <- function(x){
+RCRIrecalibrated <- updatedRCRImap <- "function(y){ sapply(y, function(x){
     if(x == 0){
-      return(0.039)
+      return()
     } else if(x == 1){
-      return(0.06)
+      return()
     } else if(x == 2){
-      return(0.101)
+      return()
     } else if(x == 3){
-      return(0.101)
+      return()
     } else if(x > 3){
-      return(0.15)
+      return()
     }
-  }
-  
-  result <- sapply(X = x, FUN = singleMap)
-  return(result)
-}"
-  
+})}"
+
+#MAPPING FOR MDCALC RCRI
+RCRImdcalc <- updatedRCRImap <- "function(y){ sapply(y, function(x){
+    if(x == 0){
+      return()
+    } else if(x == 1){
+      return()
+    } else if(x == 2){
+      return()
+    } else if(x == 3){
+      return()
+    } else if(x > 3){
+      return()
+    }
+})}"
+
 #=======================================================================================
 #CREATE THE MODELS
 #=======================================================================================
