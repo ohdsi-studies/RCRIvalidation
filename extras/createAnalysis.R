@@ -73,7 +73,7 @@ generateRestrictDataSettings <- function(start, end, interval = months(6)) {
   
 }
 
-restrictPlpDataSettings <- generateRestrictDataSettings("2010-01-01", "2024-06-01")
+restrictPlpDataSettings <- generateRestrictDataSettings("2010-01-01", "2025-06-01")
 
 # PatientLevelPredictionValidation -------------------------------
 createPackageModel <- function(modelFolder, package){
@@ -108,7 +108,7 @@ validationList[[length(validationList) + 1]] <- PatientLevelPrediction::createVa
   restrictPlpDataSettings = restrictPlpDataSettings,
   plpModelList = list(
     createPackageModel(
-      modelFolder = 'models/omoped_rcri',
+      modelFolder = 'models/recalibrated_rcri',
       package = 'RCRIvalidation'
     )),
   recalibrate = "weakRecalibration"
@@ -120,7 +120,7 @@ validationList[[length(validationList) + 1]] <- PatientLevelPrediction::createVa
   restrictPlpDataSettings = restrictPlpDataSettings,
   plpModelList = list(
     createPackageModel(
-      modelFolder = 'models/recalibrated_rcri',
+      modelFolder = 'models/mdcalc_rcri',
       package = 'RCRIvalidation'
     )),
   recalibrate = "weakRecalibration"
